@@ -6,31 +6,48 @@
     <title>Home Page</title>
     <body>
 
-    
+      <STYLE>
+        body {
+          
+        background-image: url("paper.gif");
+        background-color:aquamarine ;
+      };
+        
+        
+      </STYLE>
 
     <link rel="stylesheet" href="./styles/base.css" />
 
     <script type="text/javascript" src="./js/index.js" defer></script>
-
-    <img src="user.jpeg" width="300" height="300">
+    <div style="text-align:center;">
+      <img src="userr.jpeg" width="300" height="300" width="50%" style="display:inline-block;">
+    </div>
+    
+    <br/>
+        <br/>
+        <br/>
+  
     <form action="mailto: xxxxx@gmail.com"  method="post" enctype="text?plain"> <!-- Registration/ sing up form for the 1st page-->
-      <table bgcolor="green"   border="1" cellspacing="4" cellpadding="1" align="center" width="75%%">
-        <tr>
-          <td> <h1 style="color:yellow;"> Register </h1> </td>
-        </tr>
+      <table bgcolor="green"   border="1" cellspacing="4" cellpadding="1" align="center" width="75%">
+        
+          <tr>
+            <td> <h1 align="center" style="color:greenyellow;"> Sign Up </h1> </td>
+          </tr>
+        
       <tr>
-        <td> First Name: <input type="text" name="fname"> &nbsp; &nbsp; &nbsp; Last Name: <input type="text" name="lname"> 
+        <td> First Name: <input type="text" name="fname" align="center" > </td>
+          <tr><td>  Last Name: <input type="text" name="lname" align="center"> </td> </tr>
+    
+      <tr>
+        <td> Username: <input type="text" name="Username" align="center"> </td>
       </tr>
       <tr>
-        <td> Username: <input type="text" name="Username"> 
-      </tr>
-      <tr>
-        <td> Email: <input type="text" name="Email"> 
+        <td> Email ID: <input type="text" align="center" name="Email" > </td>
       </tr>
       
       <tr>
       
-          <td> <select name="Birth Month">
+          <td> Birth Month : <select name="Birth Month"align="center">
             <option value="January"> January </option>
            <option value="February">February </option>
            <option value="March">March </option>
@@ -43,21 +60,46 @@
            <option value="October">October </option>
            <option value="November">November </option>
            <option value="December">December</option>
-          </select></td>
-          <td> <td> Birth Date: <input type="number" name="bdate"> </td>
-          <td> <td> Birth Year: <input type="number" name="bmonth"> </td>
+          </select></td> </tr> <tr><td>
+          Birth Date: <input type="number" name="bdate" align="center" min="1" max="31"> </td> </tr>
+           <tr><td> Birth Year: <input type="number" name="bmonth" align="center" min="1950" max="2013"> </td> 
 
          </tr>
          <tr>
-          <td> Username: <input type="text" name="Username"> 
+          <td> Username: <input type="text" name="Username" align="center"> 
         </tr>
       <tr>
-        <td> Password : <input type="text" name="Password"> 
+        <td> Password : <input type="text" name="Password" align="center"> 
       </tr>
       <tr>
-        <td> Re-enter Password :  <input type="text" name="Password"> 
+        <td> Re-enter Password :  <input type="text" name="Password" align="center"> 
       </tr>
-      <td> <input type="Register " value="Submit"> &nbsp; &nbsp;
+      <td> <input type="submit" value="Sign Up" align="center"> &nbsp; &nbsp;
+        </td>
+        </tr>
+        </table>
+
+        <br/>
+        <br/>
+        <br/>
+
+      
+
+
+
+        <form action="mailto: xxxxx@gmail.com"  method="post" enctype="text?plain"> <!-- Login form for the 1st page-->
+          <table bgcolor="green"   border="1" cellspacing="4" cellpadding="1" align="center" width="75%">
+            <tr>
+              <td> <h1 align="center" style="color:greenyellow;"> Login  </h1> </td>
+            </tr>
+            <tr>
+              <td> Username: <input type="text" name="Username" align="center"> </td>
+            </tr>
+            <tr><td> Password : <input type="text" name="Password" align="center"> </tr>
+              <td> <input type="submit" value="Login" align="center"> &nbsp; &nbsp;
+                </td> </table>
+
+
        
   </head>
 </body>
