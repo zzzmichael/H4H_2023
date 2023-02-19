@@ -1,21 +1,26 @@
 {
-    "feedPH" : [{
-        "userid": "name",
-        "content": "example text"
-    }],
-
-    "feedMH" : [{
-        "userid": "name",
-        "content": "example text"
-    }],
-    
-    "feedSH" : [{
-        "userid": "name",
-        "content": "example text"
-    }],
-
-    "feedR": [{
-        "userid": "name",
-        "content": "example text"
-    }]
+    "feedPH": [
+        {
+            "userId": "name",
+            "content": "example text"
+        },
+    ],
+    "feedMH": [
+        {
+            "userId": "name",
+            "content": "example text"
+        }
+    ],
+    "feedSH": [
+        {
+            "userId": "name",
+            "content": "example text"
+        }
+    ],
+    "feedR": [
+        {
+            "userId": "name",
+            "content": "example text"
+        }
+    ]
 }
