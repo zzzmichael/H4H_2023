@@ -18,6 +18,11 @@ body {
     box-sizing: border-box;
 }
 
+.title-box a {
+    text-decoration: none;
+    color:#eeC811;
+}
+
 .title-box {
     width: 40%;
     max-width: 400px;
