@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     background-image: url("paper.gif"); 
     background-color:aquamarine ;
+    color: white;
 }
 
 .form-container {
@@ -13,7 +14,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 0 10px #ddd;
-    background-color: #f9f9f9;
+    background-color: #2C3D5B;
 }
 
 label {
@@ -23,11 +24,15 @@ label {
 
 input[type="text"], textarea {
     width: 100%;
+    max-width: 500px;
+    min-width: 500px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 20px;
     font-size: 16px;
+    position: relative;
+    right: 10px;
 }
 
 input[type="submit"] {
