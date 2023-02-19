@@ -5,6 +5,14 @@ body {
     background: #03C7A3;
 }
 
+a {
+    color:#7b6807;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
 .post-box {
     background-color: #2C3D5B;
     border-radius: 10px;
