@@ -1,78 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Post page</title>
-    <link rel="stylesheet" href="styles/base.css">
-    <body>
-
-      <STYLE>
-        body {
-          margin: 0;
-          padding: 50px;
-          font-size: 16px;
-          background-image: url("paper.gif"); 
-          background-color:aquamarine ;
-        };
-      </STYLE>
-    </body>
-  </head>
-</html>
-
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Notes Form</title>
-    <style>
-      .tab {
-        overflow: hidden;
-        border: 1px solid #ccc;
-        background-color: #f1f1f1;
-        margin-bottom: 10px;
-      }
+<head>
+	<title>Create Post</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Post page</title>
+  <link rel="stylesheet" href="styles/base.css">
+	<style>
+		.form-container {
+			max-width: 500px;
+			margin: 0 auto;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			box-shadow: 0 0 10px #ddd;
+			background-color: #f9f9f9;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input[type="text"], textarea {
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			font-size: 16px;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="form-container">
+		<h2>Create a New Post</h2>
+		<form>
+			<label for="post-title">Post Title:</label>
+			<input type="text" id="post-title" name="post-title" required>
 
-      .tab button {
-        background-color: inherit;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        transition: 0.3s;
-        font-size: 17px;
-      }
+			<label for="post-content">Post Content:</label>
+			<textarea id="post-content" name="post-content" rows="5" required></textarea>
 
-      .tab button:hover {
-        background-color: #ddd;
-      }
+			<label for="post-image">Post Image:</label>
+			<input type="file" id="post-image" name="post-image">
 
-      .tab button.active {
-        background-color: #ccc;
-      }
-    </style>
-  </head>
-  <body>
-
-   <form>
-      <table id="daily" class="tabcontent">
-        <tr>
-          <td>
-            <label for="daily_note"> Note:</label>
-          </td>
-          <td>
-            <textarea id="daily_note" name="daily_note" rows="10" cols="50" maxlength="500"></textarea>
-          </td>
-        </tr>
-      </table>
-      <input type="submit" value="Submit">
-      <input type="reset" value="Reset">
-    </form>
-    <script>
-      function openTab(evt, tabName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent
-    </script>
-  </body>
+			<input type="submit" value="Create Post">
+		</form>
+	</div>
+</body>
 </html>
