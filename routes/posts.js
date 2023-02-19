@@ -1,16 +1,19 @@
 module.exports = {
     get: function(req, res) {
         try {
-            const p = req.url.split('/')
-            const category = p[3]
-
-            res.writeHead(200, {
-                'Content-Type': 'application/json'
-            });
-            
-            res.write(JSON.stringify(POSTS[category]))
-            res.end()
-
+            const fs = require('fs')
+            fs.readFile('./public/posts.json')
+            .then((data) => {
+                // const p = req.url.split('/')
+                // const category = p[3]
+    
+                res.writeHead(200, {
+                    'Content-Type': 'application/json'
+                });
+                console.log(data)
+                res.write(data)
+                res.end()
+            })
         } catch {
             res.statusCode = 404
             console.log('404')
@@ -40,11 +43,4 @@ module.exports = {
             res.end()
         }
     }
-}
-
-const POSTS = {
-    Social: {},
-    Mental: {},
-    Physical: {},
-    Resources: {}
 }

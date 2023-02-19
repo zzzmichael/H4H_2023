@@ -5,6 +5,12 @@ body {
     background: #03C7A3;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .topButton a {
     background: #2C3D5B;
     padding: 6px;

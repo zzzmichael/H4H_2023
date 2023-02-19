@@ -1,0 +1,21 @@
+{
+    "feedPH" : [{
+        "userid": "name",
+        "content": "example text"
+    }],
+
+    "feedMH" : [{
+        "userid": "name",
+        "content": "example text"
+    }],
+    
+    "feedSH" : [{
+        "userid": "name",
+        "content": "example text"
+    }],
+
+    "feedR": [{
+        "userid": "name",
+        "content": "example text"
+    }]
+}

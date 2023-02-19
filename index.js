@@ -4,9 +4,12 @@ const utils = require('./utils.js')
 const requestRouter = function(req, res) {
     const method = req.method.toLowerCase()
     const p = req.url.split('/')
-    const folder = '/' + p[1]
+    let folder = '/' + p[1]
     console.log(p)
 
+    if (folder == '/api') {
+        folder = folder + '/' + p[2]
+    }
 
     if (routes.hasOwnProperty(folder)) {
         if (method === 'get') {
