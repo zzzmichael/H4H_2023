@@ -2,8 +2,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     background: #03C7A3;
-    color: #eeC811;
+    color: white;
     padding-top: 3em;
+    -webkit-text-stroke-width: 0.15px;
+    -webkit-text-stroke-color: black;
 }
 
 .row {
@@ -20,7 +22,9 @@ body {
 
 .title-box a {
     text-decoration: none;
-    color:#eeC811;
+    color: white;
+    position: relative;
+    left: 85px;
 }
 
 .title-box {
@@ -32,6 +36,10 @@ body {
     padding: 10px;
     box-sizing: border-box;
     cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 3px 2px 5px 3px rgba(0,0,0,0.2);
+    position: relative;
+    left: 85px;
 }
 
 .title-box:hover {

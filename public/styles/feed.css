@@ -6,16 +6,25 @@ body {
 }
 
 a {
-    color:#7b6807;
+    background: #2C3D5B;
+    padding: 6px;
+    border: 2.5px solid #4566a0;
+    border-radius: 15px;
+    box-shadow: 3px 2px 5px 3px rgba(0,0,0,0.2);
+    color:white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 2rem;
-    
+    font-size: 1.7rem;
+    -webkit-text-stroke-width: 0.15px;
+    -webkit-text-stroke-color: black;
+    position: relative;
+    top: -10px;    
 }
 
 .post-box {
     background-color: #2C3D5B;
-    border-radius: 10px;
+    border: 2.5px solid #4566a0;
+    border-radius: 20px;
     box-shadow: 3px 2px 5px 3px rgba(0,0,0,0.2);
     margin: 10px auto;
     width: 80%;
@@ -26,7 +35,7 @@ a {
     margin: 0;
     font-size: 19px;
     font-weight: bold;
-    color: #7b6807;
+    color: rgb(181, 181, 181);
 }
   
 .post-box p {
@@ -34,7 +43,7 @@ a {
     border-radius: 10px;
     margin: 7.5px 0;
     font-size: 16px;
-    color: #EEC811;
+    color: white;
     padding: 10px;
 }
   
