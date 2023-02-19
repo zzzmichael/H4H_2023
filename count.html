@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toggle Image Button</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="toggleBtn">
+            <img id="toggleImg" src="prebulb.png" width="40" height="40">
+        </button>
+        <div id="countElement" style="display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 50%; background-color: #F7BACF; color: #28334AFF;">
+            <span id="count">0</span>
+        </div>
+    </div>
+
+    <script>
+        const toggleBtn = document.getElementById("toggleBtn");
+        const toggleImg = document.getElementById("toggleImg");
+        const countElement = document.getElementById("count");
+        let count = 0;
+
+        function toggleImage() {
+            if (toggleImg.src.endsWith("prebulb.png")) {
+                toggleImg.src = "bulb.png";
+                count++;
+            } else {
+                toggleImg.src = "prebulb.png";
+                count--;
+            }
+            countElement.textContent = count;
+        }
+
+        toggleBtn.addEventListener("click", toggleImage);
+    </script>
+</body>
+</html>
