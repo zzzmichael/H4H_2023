@@ -3,6 +3,7 @@
 body {
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .row {
@@ -17,16 +18,19 @@ body {
     box-sizing: border-box;
 }
 
-.image-box {
+.title-box {
     width: 40%;
     max-width: 400px;
     margin-right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
-.image-box img {
-    width: 100%;
-    height: auto;
-    display: block;
+.title-box:hover {
+    background-color: #eee;
 }
 
 .description-box {
@@ -34,6 +38,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
+
 hr {
     width: 100%;
     margin: 0;
