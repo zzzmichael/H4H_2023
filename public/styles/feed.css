@@ -5,7 +5,7 @@ body {
     background: #03C7A3;
 }
 
-a {
+.topButton a {
     background: #2C3D5B;
     padding: 6px;
     border: 2.5px solid #4566a0;
@@ -20,6 +20,22 @@ a {
     top: -10px;    
 }
 
+.bottomButton a {
+    background: #2C3D5B;
+    padding: 6px;
+    border: 2.5px solid #4566a0;
+    border-radius: 15px;
+    box-shadow: 3px 2px 5px 3px rgba(0,0,0,0.2);
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-align: center;
+    position: relative;
+    left: 45em; 
+    top: 25em;   
+}
+
 .post-box {
     background-color: #2C3D5B;
     border: 2.5px solid #4566a0;
@@ -28,6 +44,8 @@ a {
     margin: 10px auto;
     width: 80%;
     padding: 15px;
+    position: relative;
+    right: 5em;
 }
   
 .post-box h2 {
