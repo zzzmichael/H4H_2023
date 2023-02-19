@@ -20,19 +20,18 @@ module.exports = {
     post: function(req, res, body) {
         try {
             const fs = require('fs')
-            const processedBody = body.toString().split('=')[1].split('+').join(' ')
-            const newPost = {'userId': "exampleUser",
-                            'content': processedBody}
+            console.log(body)
+            const processedBody = body.toString().split('&')
+            const user = processedBody[0].split('=')[1].split('+').join(' ')
+            const content =  processedBody[1].split('=')[1].split('+').join(' ')
+            const newPost = {'userId': user,
+                            'content': content}
             const category = 'feedPH'
-            //const user = newPost['user'].toLowerCase().trim()
-            //const content = newPost['content'].toLowerCase().trim()
             fs.readFile('./public/posts.json', (err, data) => {
-                console.log(data);
                 const postStruct = JSON.parse(data);
                 console.log(postStruct[category]);
-                //postStruct.forEach((cat) => {  });
+                
                 postStruct[category].push(newPost);
-
 
                 console.log(postStruct);
                 const formattedJSON = JSON.stringify(postStruct, null, 4);

@@ -4,6 +4,10 @@
             "userId": "name",
             "content": "example text"
         },
+        {
+            "userId": "name",
+            "content": "new post"
+        }
     ],
     "feedMH": [
         {
