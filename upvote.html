@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="button.css">
+    <meta charset="UTF-8">
+    <title>Image Icon</title>
+    <style>
+      .icon {
+        width: 64px;
+        height: 64px;
+        background-image: url('/Users/akshatkalra/Downloads/prebulb.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="icon"></div>
+    <button type="button" id="bulb-icon">
+      <img src="/Users/akshatkalra/Downloads/prebulb.png" alt="Bulb icon" width="50" height="50">
+  </button>
+    <script>
+    const bulbIcon = document.getElementById('bulb-icon');
+
+    bulbIcon.addEventListener('click', () => { const img = bulbIcon.querySelector('img'); img.src = '/Users/akshatkalra/Downloads/bulb.png'; });
+    </script>
+  </body>
+</html>
