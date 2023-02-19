@@ -1,24 +1,68 @@
 {
     "feedPH": [
         {
-            "userId": "name",
-            "content": "example text"
+            "userId": "Sarah",
+            "content": "I was devastated when I was diagnosed with scoliosis in middle school. The curvature of my spine made it hard for me to stand up straight, let alone participate in sports or other physical activities. But with the help of a brace and physical therapy, I was able to strengthen my core muscles and improve my posture. It wasn't easy, but I refused to give up. Today, I'm proud to say that I'm a varsity athlete and captain of my high school's volleyball team."
         },
         {
-            "userId": "name",
-            "content": "new post"
+            "userId": "Timmy",
+            "content": "When I was hit by a car last year, I thought my life would never be the same. I was in the hospital for weeks, recovering from a broken leg and a severe concussion. But with the support of my family and physical therapists, I was able to regain my strength and mobility. I started with simple exercises like walking and stretching, and gradually worked my way up to more intense workouts. It wasn't always easy, but I'm grateful for every step I take now."
+        },
+        {
+            "userId": "Rick",
+            "content": "Growing up, I was always the overweight kid in class. I struggled with self-esteem and felt like I would never be able to lose the extra pounds. But with the help of a nutritionist and personal trainer, I learned how to make healthy choices and incorporate exercise into my daily routine. It was a slow and steady process, but over time, I was able to shed the excess weight and feel more confident in my own skin."
+        },
+        {
+            "userId": "Sheena",
+            "content": "Living with a chronic illness is a constant battle, but I refuse to let it define me. I was diagnosed with Type 1 diabetes when I was just 10 years old, and it's been a daily challenge ever since. But with the support of my family and doctors, I've learned how to manage my symptoms and stay healthy. I monitor my blood sugar levels regularly, eat a balanced diet, and stay active through activities like dance and yoga."
+        },
+        {
+            "userId": "Jorge",
+            "content": "For years, I struggled to communicate with others due to my stutter. It was a source of embarrassment and frustration, and it made it hard for me to make friends or participate in class. But with the help of a speech therapist and lots of practice, I was able to improve my speech and gain confidence. I now participate in debate club and public speaking events, and I'm proud to say that my stutter no longer holds me back."
         }
     ],
     "feedMH": [
         {
-            "userId": "name",
-            "content": "example text"
+            "userId": "Ana",
+            "content": "Depression is a serious mental health condition that can make it hard to find joy in anything. I struggled with depression in high school, and it felt like I was living in a fog. But with the help of a therapist and medication, I was able to manage my symptoms and start feeling like myself again. I also started practicing self-care, like getting enough sleep, eating healthy foods, and exercising. It wasn't easy, but with time and support, I was able to overcome my depression."
+        },
+        {
+            "userId": "Kevin",
+            "content": "Anxiety is a natural response to stress, but when it becomes overwhelming, it can interfere with daily life. I have struggled with anxiety for as long as I can remember, and it has made it difficult for me to take risks or try new things. But with the help of a therapist and cognitive-behavioral techniques, I was able to manage my anxiety and find ways to cope. I also started practicing mindfulness and meditation, which helped me stay present and calm in the moment."
+        },
+        {
+            "userId": "Derek",
+            "content": "Post-traumatic stress disorder (PTSD) is a serious mental health condition that can be triggered by a traumatic event. I experienced a traumatic event in my childhood, and it had a lasting impact on my mental health. But with the help of a therapist and support from loved ones, I was able to work through my trauma and find ways to cope with PTSD. I also started practicing self-compassion and mindfulness, which helped me manage my symptoms and find peace."
+        },
+        {
+            "userId": "Shannon",
+            "content": "Eating disorders are complex mental health conditions that can be difficult to overcome. I struggled with an eating disorder in high school, and it made me feel isolated and unhappy. But with the help of a therapist and nutritionist, I was able to develop a healthy relationship with food and my body. I also started practicing self-love and self-care, which helped me build up my self-esteem and confidence."
+        },
+        {
+            "userId": "Mike",
+            "content": "Losing someone you love is one of the hardest things anyone can go through. I experienced the loss of a close family member in my teens, and it was a devastating experience. But with the help of a therapist and support from loved ones, I was able to work through my grief and find ways to honor my loved one's memory. I also started practicing self-care and self-compassion, which helped me find peace and healing."
         }
     ],
     "feedSH": [
         {
-            "userId": "name",
-            "content": "example text"
+            "userId": "Calliou",
+            "content": "For as long as I can remember, social situations have made me anxious. I would get nervous just thinking about meeting new people or speaking up in a group. But with the help of a therapist, I learned coping mechanisms like deep breathing and positive self-talk. I also started attending social events with a friend or family member for support. It wasn't easy, but today I'm proud to say that I can navigate social situations with confidence."
+        },
+        {
+            "userId": "Celeste",
+            "content": "When my family moved to a new town during my sophomore year, I was nervous about making friends at a new school. I felt like an outsider and had trouble finding my place. But I started getting involved in extracurricular activities and clubs that aligned with my interests. I also made an effort to be kind and open to others. Over time, I made new friends and found a sense of belonging in my new school."
+        },
+        {
+            "userId": "Kushal",
+            "content": "Being a teenager can be tough, and social media only adds to the pressure. I was cyberbullied by a group of girls in my class for months, and it made me feel isolated and depressed. But with the help of my parents and school counselor, I was able to take steps to protect myself online and build up my self-esteem. I also found support through online communities and eventually spoke out about my experience to raise awareness about the impact of cyberbullying."
+        },
+        {
+            "userId": "Yara",
+            "content": "High school can be a breeding ground for cliques and peer pressure. I struggled with fitting in and feeling accepted by my peers. But I learned to stay true to my values and surround myself with people who shared my interests and values. I also spoke out against negative behavior when I saw it happening, and encouraged others to be kind and inclusive. Over time, I found a group of friends who accepted me for who I am and supported me in all aspects of my life."
+        },
+        {
+            "userId": "Hakim",
+            "content": "English was not my first language, and when I moved to the United States at the age of 12, I had a hard time communicating with my classmates. I felt isolated and misunderstood. But I started attending language classes and practicing my English with tutors and friends. I also made an effort to immerse myself in American culture and customs. Over time, I was able to break down the language barrier and form meaningful connections with my classmates."
         }
     ],
     "feedR": [
