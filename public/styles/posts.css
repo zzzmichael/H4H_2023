@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post-box {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-self: flex-start;
+}
