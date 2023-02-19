@@ -35,6 +35,7 @@ body {
 }
 
 .description-box {
+    padding-right: 100px;
     width: 50%;
     font-size: 18px;
     line-height: 1.5;
