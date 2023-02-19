@@ -5,7 +5,7 @@ const requestRouter = function(req, res) {
     const method = req.method.toLowerCase()
     const p = req.url.split('/')
     let folder = '/' + p[1]
-    console.log(p)
+    console.log(method, p)
 
     if (folder == '/api') {
         folder = folder + '/' + p[2]

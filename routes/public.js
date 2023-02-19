@@ -14,7 +14,6 @@ module.exports = {
 
         fs.readFile(filePath)
         .then((fileData) => {
-
             res.writeHead(200, {
                 'Content-Type': contentType
             });

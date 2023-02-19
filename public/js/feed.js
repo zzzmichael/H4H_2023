@@ -14,7 +14,7 @@ window.addEventListener('load', () => {
             const listItem = document.createElement('li');
             const divItem = document.createElement('div');
             divItem.className = "post-box";
-            divItem.appendChild(document.createElement('h2')).textContent = post.userid;
+            divItem.appendChild(document.createElement('h2')).textContent = post.userId;
             divItem.appendChild(document.createElement('p')).textContent = post.content;
             listItem.appendChild(divItem);
             list.appendChild(listItem);
