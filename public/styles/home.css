@@ -1,5 +1,5 @@
 body {
-    background-image: url();
+    background-image: url('/public/images/bg.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -14,7 +14,10 @@ body {
 }
 
 .logo {
-    max-width: 80%;
+    position: relative;
+    top: -50px;
+    max-width: 100%;
+    border-radius: 10%;
 }
 
 .login-container {
@@ -29,8 +32,8 @@ body {
 
 .login-link {
     display: inline-block;
-    background-color: #fff;
-    color: #333;
+    background-color: #2c3d5b;
+    color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
