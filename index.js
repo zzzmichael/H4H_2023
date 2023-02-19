@@ -1,4 +1,5 @@
 const http = require('http')
+const utils = require('./utils.js')
 
 const requestRouter = function(req, res) {
     const method = req.method.toLowerCase()
@@ -8,8 +9,12 @@ const requestRouter = function(req, res) {
 
 
     if (routes.hasOwnProperty(folder)) {
-        if (routes[folder][method]) {
+        if (method === 'get') {
             routes[folder][method](req, res);
+        } else if (method === 'post') {
+            utils.readBody(req).then(function(body) {
+                routes[folder][method](req, res, body);
+            });
         } else {
             res.statusCode = 405
             res.end()
@@ -24,7 +29,9 @@ const server = http.createServer(requestRouter)
 server.listen(2222);
 
 const PublicHandler = require('./routes/public.js')
+const PostsHandler = require('./routes/posts.js')
 
 const routes = {
-    '/public': PublicHandler
+    '/public': PublicHandler,
+    '/api/posts': PostsHandler
 }
